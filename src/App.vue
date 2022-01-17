@@ -1,11 +1,14 @@
 <template>
-  <div id="app">Hi app</div>
+  <div id="app">
+    <LicencePlate />
+  </div>
 </template>
 
 <script>
+import LicencePlate from './components/LicencePlate.vue';
 export default {
   name: 'App',
-  components: {},
+  components: { LicencePlate },
 };
 </script>
 
